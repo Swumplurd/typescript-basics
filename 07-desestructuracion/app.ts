@@ -17,7 +17,7 @@
     console.log(persona.edad);
 
     //Desestructurando el objeto
-    const {nombre, edad} = persona;    //De esta manera extraemos las porpiedades indicadas y al mismo tiempo creamos constantes que las contengan; en la desestructuracion de objetos el orden de las constantes no importa al momento de extraerlas
+    const {nombre, edad} = persona;    //De esta manera extraemos las porpiedades indicadas y al mismo tiempo creamos constantes que las contengan || En la desestructuracion de objetos el orden de las constantes no importa al momento de extraerlas
     console.log(nombre);
     console.log(edad);
 
@@ -40,7 +40,7 @@
     console.log(canales[2]);
 
     //Desestructurando un arreglo
-    const [canal1, ,canal3] = canales;  //Al momento de extraer de esta forma, si no nos interesa extaer algun elemento lo indicamos con un espacio vacio
+    const [canal1, ,canal3] = canales;  //Al momento de extraer de un arreglo, si no nos interesa extaer algun elemento lo indicamos con un espacio vacio entre comas
     console.log(canal1);
     console.log(canal3);
 

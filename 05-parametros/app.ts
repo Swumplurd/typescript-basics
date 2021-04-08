@@ -1,7 +1,7 @@
 (() => {
 
     /* 
-    En Typescript existen tres tipos de argumentos, los obligatorios, los opcionales y los default
+    En Typescript existen tres tipos de parametros, los obligatorios, los opcionales y los default
     Se recomienda poner los parametros obligatorios al principio, los opcionales despues y al final los por default
 
     Obligatorios

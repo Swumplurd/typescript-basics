@@ -21,9 +21,10 @@
     */
 
     //Forma simplificada de crear una clase e instanciarla
-    class Persona {     //Por convencion clases empiezan con mayuscula
+    class Persona {
         constructor(public nombre:string, public apellido:string, public edad:number, public apodo?:string) {}
     }
+    
     const persona = new Persona('Fernando', 'Vasquez', 27, 'Fercho');
     console.log(persona);
 

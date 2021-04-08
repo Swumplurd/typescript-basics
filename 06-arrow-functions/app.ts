@@ -13,14 +13,15 @@
         return params;
     }
 
-    const mayus = (palabra:string) => palabra.toUpperCase();    //La funcion de flecha tiene la caracteristica de que si slo retornamos una linea podemos omitir las llaves
+    const mayus = (palabra:string) => palabra.toUpperCase();    //La funcion de flecha tiene la caracteristica de que si solo retornamos una linea podemos omitir las llaves
+
     console.log(mayus('minusculas'));
 
     const persona = {
         nombre: 'Fernando',
 
         programa() {
-            setTimeout(() => {      //Otra caracteristica de las funciones flecha es que no modifican a lo que apunta this
+            setTimeout(() => {      //Otra caracteristica de las funciones flecha es que no modifican a lo que apunta el objeto this
                 console.log(`${this.nombre} programa Typescript`);
             }, 5000);
         }

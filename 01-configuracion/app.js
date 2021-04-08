@@ -1,9 +1,14 @@
-"use strict";
+/*
 (() => {
+    Funcion anonima que se autoinvoca y eso evita que variables,
+    funciones, etc marquen error en nuestros archivos .ts y .js
+})();
+*/
+(function () {
     function hola(nombre) {
-        console.log(`Hola ${nombre}`);
+        console.log("Hola " + nombre);
     }
-    const persona = {
+    var persona = {
         nombre: 'Fernando',
         apellido: 'Vasquez',
         sexo: 'Masculino',
@@ -12,39 +17,31 @@
     hola(persona.nombre);
 })();
 /*
-(() => {
-    Funcion anonima que se auto invoca y eso evita que variables,
-    funciones, etc marquen error en nuestros archivos .ts y .js
-})();
-*/
-/*
-Para compilar un archivo de ts tenemos que instalar mediante npm
+Para compilar un archivo de typescript tenemos que instalar mediante npm
 el siguiente modulo de manera global
 
-npm i -g typescript
-
+    npm i -g typescript
 */
 /*
-Para compilar un archivo ts usamos el comando
+Para compilar un archivo typescript usamos el comando
 
-tsc nombrearchivo.ts
+    tsc nombrearchivo.ts
 
 esto nos creara un archivo .js con el mismo nombre
 */
 /*
-Para crear el archivo de configuracion de ts usamos el comando
+Para crear el archivo de configuracion de typescript usamos el comando
 
-tsc --init
+    tsc --init
 
 En el archivo de configuracion podemos modificar varias cosas segun necesitemos,
-Angular ofrece un archivo de configuracion recomendado
+Cuando usemos Angular, este ofrece un archivo de configuracion recomendado
 */
 /*
-Una vez creamos el archivo de configuracion podemos usar el modo de observacion de ts para
-que no tengamos que compilar manualmete cada que hagamos un cambio en un archivo. el comando
-es:
+Una vez creamos el archivo de configuracion podemos usar el modo de observacion de typescript para
+que no tengamos que compilar manualmete cada que hagamos un cambio en un archivo. el comando es:
 
-tsc -w
+    tsc -w
 
 Con esto cada que guardemos nuestro archivo .ts se aplicara el cambio en nuestro archivo .js
-*/
+*/ 

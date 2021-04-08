@@ -3,10 +3,10 @@
     cada una de estas y el espacio de memoria que utilizan. */
 
     /* Scope de var */
-    var mensaje = 'Hola mundo desde var';  //al declarar varibles con var reservamos un espacio de memoria para dicha variable
+    var mensaje = 'Hola mundo desde var';  //Al declarar varibles con var reservamos un espacio de memoria para dicha variable
 
     if (true) {
-        var mensaje = 'Adios mundo cruel desde var';   //redefinimos el valor de la variable en el mismo espacio de memoria
+        var mensaje = 'Adios mundo cruel desde var';   //Redefinimos el valor de la variable en el mismo espacio de memoria
     }
     
     console.log(mensaje);   //Muestra por consola 'Adios mundo cruel desde var'

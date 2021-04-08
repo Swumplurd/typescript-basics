@@ -1,14 +1,7 @@
-# Webpack Starter
+# Importaciones-URL
 
-Este es el proyecto inicial para crear aplicaciones utilizando webpack.
+Para ver los comentarios realizados visite los siguientes documentos
 
-### Notas:
-Recuerden reconstruir los módulos de Node
-```
-npm install
-```
+### src/clases/persona.class.ts
 
-Y para construir el build, recueren:
-```
-npm run build
-```
+### src/index.ts
