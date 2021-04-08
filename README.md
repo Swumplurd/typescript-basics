@@ -24,4 +24,6 @@ Se recomienda seguir el orden de los apuntes para un mejor entendimiento.
 + 13-decoradores
 + 14-retorno-de-funciones
 
+---
+
 Cualquier duda o sugerencia al contenido del precente repositorio contactame en Discord: Swumplurd#3977
